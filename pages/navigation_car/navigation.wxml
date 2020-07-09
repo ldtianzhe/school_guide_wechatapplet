@@ -1,0 +1,37 @@
+<view class="flex-style">
+  <view class="flex-item" bindtap="goToWalk">
+    <view class="group">
+      <image class="icon" src="/resource/images/walk.png"></image>
+      <view>步行</view>
+    </view>
+  </view>
+  <view class="flex-item" bindtap="goToRide">
+    <view class="group">
+      <image class="icon" src="/resource/images/ride.png"></image>
+      <view>骑行</view>
+    </view>
+  </view>
+  <view class="flex-item" bindtap="goToCar">
+    <view class="group">
+      <image class="icon" src="/resource/images/car_active.png"></image>
+      <view class="active">驾车</view>
+    </view>
+  </view>
+</view>
+<view class="map_box">
+  <map 
+  id="navi_map" 
+  longitude="{{currentLo}}" 
+  latitude="{{currentLa}}" 
+  scale="17" 
+  show-location="true"
+  subkey="L6XBZ-7UPY6-XHQS7-MZU6P-X6OFF-BVBOB"
+  markers="{{markers}}" 
+  polyline="{{polyline}}"></map>
+</view>
+<view class="text_box">
+  <view class="text">{{distance}}</view>
+  <view class="text2">{{duration}}</view>
+  <view class="detail_button" bindtap="goDetail">详情</view>
+  <view class="detail_button2" bindtap="nav">导航</view>
+</view>

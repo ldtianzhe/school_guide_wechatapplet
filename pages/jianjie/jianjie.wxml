@@ -1,0 +1,23 @@
+<import src="../../utils/wxParse/wxParse.wxml" />
+<view class="introduction">
+    <swiper class="slide" indicator-active-color='#FFFFFF' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}">
+        <swiper-item wx:for="{{imgUrls}}" wx:key="true">
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+    </swiper>
+    <!-- <navigator url="/pages/panoramic_map/panoramic_map" hover-class="navigator-hover"> -->
+    <view class='anniu' bindtap="anniu">
+    <text>全景\n漫游</text>
+    </view>
+    <!-- </navigator> -->
+    <view class="introduction-info padding-leftRight">
+        <view class="introduction-title">
+          <view class="introduction-title-text">{{schoolName}}</view>
+          <view class="introduction-english-text">{{englishName}}</view>
+        </view>
+        <view class="introduction-main">
+            <template is="wxParse" data="{{wxParseData:content.nodes}}" />
+        </view>
+    </view>
+</view>

@@ -1,0 +1,3 @@
+<!-- pages/play/play.wxml-->
+<video src='{{src}}' autoplay='true' custom-cache='true'></video>
+<view class='dec'>{{title}}</view>

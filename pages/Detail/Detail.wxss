@@ -1,0 +1,47 @@
+.slide{
+  width: 750rpx;
+  height: 500rpx; 
+}
+
+.slide-image{
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.intro{
+  height: 100%;
+  background-color: rgba(248,248,248,.3);
+}
+.intro-title {
+  position: relative;
+}
+
+
+.padding-leftRight {
+  padding: 0 40rpx;
+}
+
+.intro-title-text {
+  padding: 54rpx 0;
+  line-height: 60rpx;
+  font-size: 70rpx;
+  color:#16593C;
+}
+
+.intro-title-logo {
+  position: absolute;
+  right: 0;
+  top: 54rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.intro-main {
+  padding: 40rpx 0;
+  line-height: 48rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+  color: #464645;
+  text-align: justify;
+}

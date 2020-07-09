@@ -1,0 +1,33 @@
+<!--pages/video/video.wxml-->
+<view class="slider-wrapper">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"
+   interval="{{interval}}" duration="{{duration}}" indicator-active-color="#ffffff">
+      <block wx:for="{{navideo}}" wx:key="true">
+        <swiper-item>
+           <navigator id='{{ item.id }}' url="/pages/play/play?id={{item.id}}" hover-class="navigator-hover">
+            <image src="{{item.coverimg}}" class="slide-image" width="355" height="150" />
+           </navigator>
+        </swiper-item>
+      </block>
+</swiper>
+</view>
+<view class='xinnong'>信农风采</view>
+<view class="row-container">
+    <view class="content-wrapper">
+      <block wx:for="{{video}}" wx:key="avid">
+        <!-- 使用模板，传入当前循环对象item -->
+        <view class="content-list">
+        <navigator id='{{ item.id }}' class="item" url="/pages/play/play?id={{item.id}}">
+            <view class="top">
+              <view class="cover-img"
+            style="opacity: 1; background-image: url({{item.coverimg}});">
+            </view>
+            </view>
+            <view class="info">
+              <view class="title">{{item.title}}</view>
+            </view>
+        </navigator>
+        </view>
+      </block>
+    </view>
+</view>

@@ -1,0 +1,76 @@
+@import "../../utils/wxParse/wxParse.wxss";
+.slide{
+  width: 100%;
+  height: 470rpx; 
+}
+
+.slide-image{
+  width: 100%;
+  height: 500rpx;
+}
+.anniu{
+  position: absolute;
+  font-size: 16px;
+  top:400rpx;
+  right: 50rpx;
+  width: 130rpx;
+  height: 130rpx;
+  background-color: #16593C;
+  text-align: center;
+  border-radius: 500px;
+  padding: 5rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anniu text{
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  color: white;
+}
+
+.introduction-title {
+  position: relative;
+}
+
+.introduction-info{
+  background-color: rgba(248,248,248,.3);
+}
+
+.padding-leftRight {
+  padding: 0 40rpx;
+}
+
+.introduction-title-logo {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  bottom: 52%;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.introduction-title-text {
+  padding: 45rpx 0;
+  line-height: 60rpx;
+  font-size: 70rpx;
+  color:#16593C;
+}
+
+.introduction-english-text {
+  padding: 10rpx 0;
+  font-size: 30rpx;
+  font-weight: normal;
+  color:#16593C;
+}
+
+.introduction-main {
+  padding: 40rpx 0;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  font-family: 微软雅黑;
+  font-weight: 300;
+  color: #464645;
+  text-align: justify;
+}

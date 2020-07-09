@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+} 
+.logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.logo_img{
+  width: 70rpx;
+  height: 70rpx;
+}
+.name_img{
+  width: 300rpx;
+  height: 70rpx;
+}
+.btn{
+  margin-top: 400rpx;
+  width: 100%;
+}
+.content{
+  width: 70%;
+  height: 180rpx;
+  display: flex;
+  margin: 40rpx auto;
+  background: rgba(22,89,60,0.7);
+}
+.left{
+  width: 55%;
+  height: 180rpx;
+}
+.right{
+  padding-left: 10rpx;
+}
+.eng1{
+  font-size: 20rpx;
+  color: #ffffff;
+  padding-top: 20rpx;
+}
+.eng{
+  font-size: 22rpx;
+  color: #ffffff;
+  padding-top: 20rpx;
+}
+.chinese{
+  font-size: 30rpx;
+  color: #ffffff;
+  padding-top: 20rpx;
+}
+.jiantou{
+  width: 60rpx;
+  height: 40rpx;
+  padding-top: 20rpx;
+}

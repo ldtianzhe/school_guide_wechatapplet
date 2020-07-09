@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/youlan/youlan",
+    "pages/jianjie/jianjie",
+    "pages/video/video",
+    "pages/play/play",
+    "pages/Detail/Detail",
+    "pages/navigation_car/navigation",
+    "pages/navigation_walk/navigation",
+    "pages/navigation_ride/navigation",
+    "pages/navigation_car_detail/navigation",
+    "pages/navigation_walk_detail/navigation",
+    "pages/navigation_ride_detail/navigation",
+    "pages/panoramic_map/panoramic_map"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#16593C",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "信农校园游览",
+    "enablePullDownRefresh": false
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于路线规划"
+    }
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.5",
+      "provider": "wx50b5593e81dd937a"
+    }
+  }
+}

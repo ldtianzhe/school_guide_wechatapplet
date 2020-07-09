@@ -1,0 +1,113 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.1",
+	"appid": "wxae2dee63d31394cc",
+	"projectname": "Demo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": 0,
+					"name": "map",
+					"pathName": "pages/youlan/youlan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "简介",
+					"pathName": "pages/jianjie/jianjie",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "视频",
+					"pathName": "pages/video/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/Detail/Detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "游览",
+					"pathName": "pages/youlan/youlan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "walk",
+					"pathName": "pages/navigation_walk/navigation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全景地图",
+					"pathName": "pages/panoramic_map/panoramic_map",
+					"scene": null
+				}
+			]
+		}
+	}
+}

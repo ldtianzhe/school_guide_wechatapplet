@@ -1,0 +1,38 @@
+<view class="container" style='height:100%;background-image:url({{background}});background-size:100% 100%'>
+  <view class='logo'>
+    <image class='logo_img' src='/resource/images/logo.png'></image>
+    <image class='name_img' src='/resource/images/name.png'></image>
+  </view>
+  <view class='btn'>
+    <navigator url="/pages/jianjie/jianjie" hover-class="none">
+      <view class='content'>
+        <image class='left' src='{{jianjie}}'></image>
+        <view class='right'>
+            <view class='eng1'>University Introduction</view>
+            <view class='chinese'>信农简介</view>
+            <image src='/resource/images/jiantou.png' class='jiantou'></image>
+        </view>
+      </view>  
+    </navigator>
+    <navigator url="/pages/video/video" hover-class="none">
+      <view class='content'>
+        <image class='left' src='{{video}}'></image>
+        <view class='right'>
+          <view class='eng'>School Media</view>
+          <view class='chinese'>校园微视</view>
+          <image src='/resource/images/jiantou.png' class='jiantou'></image>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="/pages/youlan/youlan" hover-class="none">
+      <view class='content'>
+        <image class='left' src='{{youlan}}'></image>
+        <view class='right'>
+          <view class='eng'>School Guide</view>
+          <view class='chinese'>游览信农</view>
+          <image src='/resource/images/jiantou.png' class='jiantou'></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>
